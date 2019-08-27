@@ -1,0 +1,4 @@
+name=innput()
+print(name)
+
+
