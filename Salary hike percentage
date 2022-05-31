@@ -1,0 +1,5 @@
+current_sal=float(input('Enter your current salary:'))
+HikePercent=float(input('Enter your Hike Percent:'))
+total= current_sal * HikePercent / 100
+print(total)
+print(current_sal + total)
