@@ -1,0 +1,61 @@
+print('--------------------------------------')
+print('FRAUD BANK OF INDIA')
+print('--------------------------------------')
+
+import uuid
+
+
+print('A. accountName ')
+print('B. accountId ')
+print('C. Check Balance ')
+print('D. Deposit ')
+print('E. Withdraw ')
+print('F. Previous Transaction ')
+print('G. Exit')
+print('--------------------------------------')
+options = input("select option :")
+
+accountname = "a"
+accountid = "b"
+CheckBalance = "c"
+Deposit = "d"
+Withdraw = "e"
+PreviousTransaction = "f"
+Exit = "g"
+
+current_balance = 1000000
+
+if options == accountname:
+    print(input("Enter the CustomerName :"))
+
+elif options == accountid:
+    print("AccountID: ", uuid.uuid1())
+
+elif options == CheckBalance:
+    CheckBalance == current_balance
+    print("CheckBalance :", current_balance)
+
+elif options == Deposit:
+    Deposit = float(input("Enter the Deposit amount :"))
+    total_amount = Deposit + current_balance
+    print("CheckBalance :", current_balance)
+    print("The Deposit amount :" ,  Deposit)
+    print("The total amount :", total_amount)
+
+
+elif options == Withdraw :
+    Withdraw  = float(input("Enter the Withdraw amount :"))
+    total_amount = (Withdraw_1 ,Withdraw_2, Withdraw_3 ,Withdraw_4 ) -  current_balance
+    print("CheckBalance :", current_balance)
+    print("The Withdraw  amount :" ,  Deposit)
+    print("The total amount :", total_amount)
+
+elif options == PreviousTransaction :
+    total_amount = Withdraw  -  current_balance
+    print("CheckBalance :", current_balance)
+    print("The PreviousTransaction :" ,  Deposit)
+    print("The total amount :", total_amount)
+
+else :
+
+    print("Exist")
